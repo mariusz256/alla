@@ -1,0 +1,18 @@
+
+
+GET http://localhost:3000/calendar
+Content-Type: application/json
+
+{
+  "month": 0
+}
+
+####
+
+GET http://localhost:3000/calendar/working-hours
+Content-Type: application/json
+
+{
+  "month": 0
+}
+

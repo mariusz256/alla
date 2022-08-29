@@ -1,0 +1,4 @@
+
+#1 if no user in db, on first launch, create superuser 
+
+#2 crate calendar
