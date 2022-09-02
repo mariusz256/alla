@@ -15,9 +15,8 @@ const userRauter = require("./src/routes/users.js");
 
 app.use("/api/user", userRauter);
 
-const calendarRauter = require("./src/routes/calendar");
-
-app.use("/calendar", calendarRauter);
+const workingHours = require("./src/routes/workingHours");
+app.use("/workdays", workingHours);
 
 app.listen(process.env.PORT, () => {
   console.log(`App running on port: ${process.env.PORT}`);
